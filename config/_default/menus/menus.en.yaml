@@ -8300,3 +8300,55 @@ api:
         - ListServiceAccountApplicationKeys
       unstable: []
       order: 0
+  - name: Service Definition
+    url: /api/latest/service-definition/
+    identifier: service-definition
+    generated: true
+  - name: Get a single service definition
+    url: '#get-a-single-service-definition'
+    identifier: service-definition-get-a-single-service-definition
+    parent: service-definition
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ServiceCatalogGetServiceDefinition
+      unstable: []
+      order: 3
+  - name: Delete a single service definition
+    url: '#delete-a-single-service-definition'
+    identifier: service-definition-delete-a-single-service-definition
+    parent: service-definition
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ServiceCatalogDeleteServiceDefinition
+      unstable: []
+      order: 4
+  - name: Create a new service definition
+    url: '#create-a-new-service-definition'
+    identifier: service-definition-create-a-new-service-definition
+    parent: service-definition
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ServiceCatalogUpsertDefinition
+      unstable: []
+      order: 2
+  - name: Get all service definitions
+    url: '#get-all-service-definitions'
+    identifier: service-definition-get-all-service-definitions
+    parent: service-definition
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ServiceCatalogGetAll
+      unstable: []
+      order: 1
